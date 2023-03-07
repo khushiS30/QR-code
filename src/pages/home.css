@@ -1,0 +1,45 @@
+.Wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+ }
+ 
+ .container{
+     height: 400px;
+     width: 254px;
+     border: 10px soild black;
+     background-color: hsl(0, 0%, 100%);
+     position: relative;
+     top: 100px;
+     border-radius: 5%;
+     
+ }
+ 
+ .image{
+     height: 225px;
+     width: 234px;
+     margin: 10px 10px;
+     object-fit: cover;
+     border-radius: 5%;
+ }
+ 
+ .header{
+     font-size: 15px;
+     font-weight: bold;
+     margin-left: 35px;
+     margin-right: 37px;
+     background-color: hsl(0, 0%, 100%);
+     text-align: center;
+ }
+ 
+ .para{
+     font-size: 12px;
+     margin-top: 9px;
+     padding: 10px;
+     color: gray;
+     background-color: hsl(0, 0%, 100%);
+     margin-left: 8px;
+     text-align: center;
+ }
